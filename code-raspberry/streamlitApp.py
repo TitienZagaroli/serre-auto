@@ -22,7 +22,9 @@ import sqlite3
 ##############################################################################################################################
 
 #paramètres du prog
-os.chdir(r"C:\Users\alban\Desktop\serre-auto\code-raspberry")
+# détection du chemin actuel
+actual_path = os.getcwd()
+os.chdir(actual_path)
 
 #paramètres nécésaires au démarrage de streamlit
 st.set_page_config(page_title='Dashboard', page_icon='📊',layout='wide')
