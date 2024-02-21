@@ -7,7 +7,7 @@
 
 # virtualenv
 venv/
-env/
+.env/
 
 # IDE
 .vscode/
